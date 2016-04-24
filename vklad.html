@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<script>
+
+var z = parseInt(prompt('Введите сумму вклада'));
+var c = parseInt(prompt('Введите процентную ставку'));
+var l = parseInt(prompt('Введите срок вашего вклада'));
+
+for (n = 1; n <= l; n++) {
+	z = z + (z*c/100);
+alert('Сумма вашего вклада через ' + n + ' лет составит ' + z);
+}
+alert('Сумма вашего счета: ' + z);
+</script>
